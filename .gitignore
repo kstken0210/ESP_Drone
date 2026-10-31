@@ -1,0 +1,66 @@
+# ============================================================
+# ESP_drone — Git ignore rules
+# PlatformIO / ESP32-S3 firmware + KiCad hardware
+# ============================================================
+
+# ---------- PlatformIO ----------
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/build/
+
+# ---------- Build output / generated SDK config ----------
+build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.hex
+
+# ---------- VS Code (generated files only) ----------
+**/.vscode/c_cpp_properties.json
+**/.vscode/launch.json
+**/.vscode/ipch/
+**/.vscode/*.db
+**/.vscode/*.db-*
+**/.vscode/.browse.*
+
+# ---------- KiCad ----------
+*.kicad_prl
+*.kicad_prl.lock
+fp-info-cache
+*-backups/
+_autosave-*
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# ---------- VS Code Local History / editor ----------
+.history/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Python tooling ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- Local secrets ----------
+.env
+.env.*
+!.env.example
+secrets.h
+*.pem
+*.key
+
+# ---------- Logs ----------
+*.log
