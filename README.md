@@ -165,4 +165,4 @@ KiCad 的 `.kicad_pro`、`.kicad_pcb`、`.kicad_sch`、`.net`、Gerber 與 `.zip
 
 ## 授權
 
-本專案目前未附 `LICENSE`。若要公開發布，建議先補上授權條款（例如 MIT 或 Apache-2.0），並確認硬體設計檔與第三方函式庫的授權相容。
+本專案目前未附 `LICENSE`。
